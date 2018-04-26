@@ -7,6 +7,8 @@ import {
   ScrollView
 } from 'react-native';
 
+import { Card, CardItem, Body } from 'native-base';
+
 import * as Animatable from 'react-native-animatable';
 import Collapsible from 'react-native-collapsible';
 import Accordion from 'react-native-collapsible/Accordion';
@@ -19,7 +21,24 @@ const ayat1 = "             <ol>      <li>        <h1>الحمدلله</h1>     
 const CONTENT = [
   {
     title: 'First',
-    content: ayat1,
+    content: [
+    'الحمدلله',
+    'We thank and praise Allah no matter what has happened, although we may not understand the wisdom behind it.',
+    'ثناء - Praise, e.g: Praise athlete that is good',
+    'Thanks - when someone does something for you, or when someone does you a favor',
+    'When you praise something, it doesn\'t necessarily mean that you will thank it.',
+    'When you thank someone, you don\'t necessarily have to praise it.',
+    'Musa as thanks Firaun, but will never praise him for what he does.',
+    'Notice tt wasn\'t المدح or الشكر لله, why?',
+    'المدح can be fake praises are done all the time, to impress people, but was never sincere.',
+    'الشكر is the thanks that is only given as a reaction. It wasn\'t given out of the blue.',
+    'But, الحمد can only mean genuinity and non-reactionary.',
+    'The concise nature of the word conveys the best meaning. The shorter a word to describe something, the better it is.',
+
+
+
+
+    ],
   },
   {
     title: 'Second',
@@ -127,9 +146,23 @@ export default class ExampleView extends Component {
   }
 
   _renderContent(section, i, isActive) {
+    var textCards = []
+    textCards.push(<CardItem header bordered>
+              <Text style={{ fontSize: 30, textAlign: 'center' }}>{section.content[0]}</Text>
+            </CardItem>)
+    for(var i = 1; i < 3; i++){
+      textCards.push(<CardItem bordered>
+        <Body>
+              <Text>{section.content[i]}</Text>
+              </Body>
+            </CardItem>)
+    }
+
     return (
-        <ScrollView style={{ maxHeight: 200 }} >
-        <HTML html={section.content} />
+        <ScrollView>
+        <Card>
+          {textCards}
+          </Card>
         </ScrollView>
     );
   }
