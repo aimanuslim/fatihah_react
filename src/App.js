@@ -20,7 +20,7 @@ const ayat1 = "             <ol>      <li>        <h1>الحمدلله</h1>     
 
 const CONTENT = [
   {
-    title: 'First',
+    title: 'الحمدلله ربِّ العلمىن',
     content: [
     'الحمدلله',
     'We thank and praise Allah no matter what has happened, although we may not understand the wisdom behind it.',
@@ -30,10 +30,11 @@ const CONTENT = [
     'When you thank someone, you don\'t necessarily have to praise it.',
     'Musa as thanks Firaun, but will never praise him for what he does.',
     'Notice tt wasn\'t المدح or الشكر لله, why?',
-    'المدح can be fake praises are done all the time, to impress people, but was never sincere.',
-    'الشكر is the thanks that is only given as a reaction. It wasn\'t given out of the blue.',
+    'The phrase المدح can be fake praises are done all the time, to impress people, but was never sincere.',
+    'Meanwhile الشكر is the thanks that is only given as a reaction. It wasn\'t given out of the blue.',
     'But, الحمد can only mean genuinity and non-reactionary.',
     'The concise nature of the word conveys the best meaning. The shorter a word to describe something, the better it is.',
+    'No \'و\' (and) used to pair المدح and الشكر'
 
 
 
@@ -41,19 +42,23 @@ const CONTENT = [
     ],
   },
   {
-    title: 'Second',
+    title: 'الرَّحْمَـٰنِ الرَّحِيمِ',
     content: BACON_IPSUM,
   },
   {
-    title: 'Third',
+    title: 'مَالِكِ يَوْمِ الدِّينِ ',
     content: BACON_IPSUM,
   },
   {
-    title: 'Fourth',
+    title: 'إِيَّاكَ نَعْبُدُ وَإِيَّاكَ نَسْتَعِينُ',
     content: BACON_IPSUM,
   },
   {
-    title: 'Fifth',
+    title: 'اهْدِنَا الصِّرَاطَ الْمُسْتَقِيمَ',
+    content: BACON_IPSUM,
+  },
+  {
+    title: 'صِرَاطَ الَّذِينَ أَنْعَمْتَ عَلَيْهِمْ غَيْرِ الْمَغْضُوبِ عَلَيْهِمْ وَلَا الضَّالِّينَ ',
     content: BACON_IPSUM,
   },
 ];
@@ -150,7 +155,7 @@ export default class ExampleView extends Component {
     textCards.push(<CardItem header bordered>
               <Text style={{ fontSize: 30, textAlign: 'center' }}>{section.content[0]}</Text>
             </CardItem>)
-    for(var i = 1; i < 3; i++){
+    for(var i = 1; i < section.content.length; i++){
       textCards.push(<CardItem bordered>
         <Body>
               <Text>{section.content[i]}</Text>
@@ -159,7 +164,7 @@ export default class ExampleView extends Component {
     }
 
     return (
-        <ScrollView>
+        <ScrollView style={{maxHeight: 200}}>
         <Card>
           {textCards}
           </Card>
