@@ -247,8 +247,8 @@ export default class ExampleView extends Component {
   _renderContent(section, i, isActive) {
 
     const wordsnotescard = section.content.map((wordsnotes) => <WordsCards wordsnotes={wordsnotes} key={wordsnotes.words}/>);
-
-    return (<View style={styles.wordsCardsStyle}><ScrollView>{wordsnotescard}</ScrollView></View>);
+    const {height: screenHeight} = Dimensions.get('window');
+    return (<View style={{'height': screenHeight / 2}}><ScrollView>{wordsnotescard}</ScrollView></View>);
     
   }
 
