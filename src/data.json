@@ -1,37 +1,89 @@
 CONTENT = [
   {
-    'title': "title1",
+    'ayat': "ayat1",
     'content': [
-      "title1content1",
-      "title1content2",
-    ]
-  },
-   {
-    'title': "title2",
-    'content': [
-      "title2content1",
-      "title2content2",
+      {
+        'words': "ayat1word1",
+        'notes': [
+          "ayat1word1note1",
+          "ayat1word1note2",
+          "ayat1word1note3",
+        ]
+      },
+      {
+        'words': "ayat1word2",
+        'notes': [
+          "ayat1word2note1",
+          "ayat1word2note2",
+          "ayat1word2note3",
+        ]
+      },
+      {
+        'words': "ayat1word3",
+        'notes': [
+          "ayat1word3note1",
+          "ayat1word3note2",
+          "ayat1word3note3",
+        ]
+      },
     ]
   },
   {
-    'title': "title13",
+    'ayat': "ayat2",
     'content': [
-      "title3content1",
-      "title3content2",
+      {
+        'words': "ayat2word1",
+        'notes': [
+          "ayat2word1note1",
+          "ayat2word1note2",
+          "ayat2word1note3",
+        ]
+      },
+      {
+        'words': "ayat2word2",
+        'notes': [
+          "ayat2word2note1",
+          "ayat2word2note2",
+          "ayat2word2note3",
+        ]
+      },
+      {
+        'words': "ayat2word3",
+        'notes': [
+          "ayat2word3note1",
+          "ayat2word3note2",
+          "ayat2word3note3",
+        ]
+      },
     ]
   },
   {
-    'title': "title14",
+    'ayat': "ayat3",
     'content': [
-      "title4content1",
-      "title4content2",
-    ]
-  },
-  {
-    'title': "title5",
-    'content': [
-      "title5content1",
-      "title5content2",
+      {
+        'words': "ayat3word1",
+        'notes': [
+          "ayat3word1note1",
+          "ayat3word1note2",
+          "ayat3word1note3",
+        ]
+      },
+      {
+        'words': "ayat3word2",
+        'notes': [
+          "ayat3word2note1",
+          "ayat3word2note2",
+          "ayat3word2note3",
+        ]
+      },
+      {
+        'words': "ayat3word3",
+        'notes': [
+          "ayat3word3note1",
+          "ayat3word3note2",
+          "ayat3word3note3",
+        ]
+      },
     ]
   },
 ]
