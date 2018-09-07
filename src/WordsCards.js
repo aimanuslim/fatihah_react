@@ -15,7 +15,7 @@ const WordsCards = ({wordsnotes}) => {
 	return (
 		<Card>
 			<CardItem header bordered>
-				<Text>{words}</Text>
+				<Text style={{textAlign: 'center', 'writingDirection': 'ltr'}}>{words}</Text>
 			</CardItem>
 			{notescards}
 		</Card>	

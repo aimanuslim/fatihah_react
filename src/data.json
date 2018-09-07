@@ -1,60 +1,52 @@
 CONTENT = [
   {
-    'ayat': "ayat1",
+    'ayat': "بِسْمِ   ٱللَّهِ   ٱلرَّحْمَٰنِ  ٱلرَّحِيمِ ",
     'content': [
       {
-        'words': "ayat1word1",
+        'words': "Background",
         'notes': [
-          "ayat1word1note1",
-          "ayat1word1note2",
-          "ayat1word1note3",
-        ]
-      },
-      {
-        'words': "ayat1word2",
-        'notes': [
-          "ayat1word2note1",
-          "ayat1word2note2",
-          "ayat1word2note3",
-        ]
-      },
-      {
-        'words': "ayat1word3",
-        'notes': [
-          "ayat1word3note1",
-          "ayat1word3note2",
-          "ayat1word3note3",
+          "First complete surah given to Rasulullah ﷺ.  ",
+          "Fatihah will open the doors to the other parts of the Quran. That's why its always paired with other Surah in our prayers.",
+          "All you need to know about God is the first 3 ayaats of Al-Fatihah.",
+          "First 3 ayats of Fatihah is the knowledge, the rest are our testimony to action.",
         ]
       },
     ]
   },
   {
-    'ayat': "ayat2",
+    'ayat': "ٱلْحَمْدُ  لِلَّهِ   رَبِّ   ٱلْعَٰلَمِينَ ",
     'content': [
       {
-        'words': "ayat2word1",
+        'words': "الحمدلله",
         'notes': [
-          "ayat2word1note1",
-          "ayat2word1note2",
-          "ayat2word1note3",
+          "We thank and praise Allah no matter what has happened, although we may not understand the wisdom behind it.",
+          "Try comparing 'Praise' ( ثناء  ) or 'Thanks' with the word الحمد.",
+          "We praise an athlete because he is good.",
+          "We thank someone because he/she does something for us.",
+          "When you praise something, it doesn't necessarily mean that you will thank it.",
+          "When you thank someone, you don't necessarily have to praise it.",
+          "Musa as thanks Firaun, but will never praise him for what he does.",
+          "It wasn't المدح  or الشكر لله  - Why?",
+          "The word 'المدح  'can be fake praises which are done all the time, to impress people, but were never sincere.",
+          "The word 'الشكر: 'is a kind of thanks that is only given as a reaction. It cannot be given out of the blue.",
+          "On the contrary, the word 'ٱلْحَمْدُ 'can only mean genuinity and non-reactionary.",
+          "The concise nature of the word conveys the best meaning. The shorter a word to describe something, the better it is.",
+          "There is no 'و' (and) used to pair المدح  and الشكر  since the usage و will separate the meaning",
+          "Also, thanks and praise can be for two different things. You can praise someone for somethings, and thank him for other things.",
+          "لحمد لله  is not just something that we say, it is supposed to be an attitude that we practice",
+
+
+
         ]
       },
-      {
-        'words': "ayat2word2",
+      {'words': "الحمد لله is in the form of a noun.",
         'notes': [
-          "ayat2word2note1",
-          "ayat2word2note2",
-          "ayat2word2note3",
+          "Nouns don't have any tense - they are timeless and permanent.",
+          "We are praising Allah now, but the praise and thanks to Allah will be there forever",
+          "It will never depend on any person reciting it i.e. it doesn't need a doer.",
+          "Acknowledging that Allah doesn't need us, we are the ones who need him.",
         ]
-      },
-      {
-        'words': "ayat2word3",
-        'notes': [
-          "ayat2word3note1",
-          "ayat2word3note2",
-          "ayat2word3note3",
-        ]
-      },
+      }
     ]
   },
   {

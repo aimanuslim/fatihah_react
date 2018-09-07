@@ -176,7 +176,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#F5FCFF',
   },
   wordsCardsStyle: {
-    'height': 300
+    height: 300
   },
   title: {
     textAlign: 'center',
@@ -187,6 +187,7 @@ const styles = StyleSheet.create({
   header: {
     backgroundColor: '#F5FCFF',
     padding: 10,
+    alignSelf: 'center'
   },
   headerText: {
     textAlign: 'center',
@@ -222,7 +223,7 @@ const styles = StyleSheet.create({
   },
 });
 
-export default class ExampleView extends Component {
+export default class FatihahView extends Component {
   state = {
     activeSection: false,
     collapsed: true,
@@ -248,7 +249,7 @@ export default class ExampleView extends Component {
 
     const wordsnotescard = section.content.map((wordsnotes) => <WordsCards wordsnotes={wordsnotes} key={wordsnotes.words}/>);
     const {height: screenHeight} = Dimensions.get('window');
-    return (<View style={{'height': screenHeight / 2}}><ScrollView>{wordsnotescard}</ScrollView></View>);
+    return (<View style={{'height': screenHeight * 0.5}}><ScrollView>{wordsnotescard}</ScrollView></View>);
     
   }
 
