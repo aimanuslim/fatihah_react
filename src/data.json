@@ -1,24 +1,24 @@
 CONTENT = [
   {
-    'ayat': "بِسْمِ   ٱللَّهِ   ٱلرَّحْمَٰنِ  ٱلرَّحِيمِ ",
-    'content': [
+    "ayat": "بِسْمِ   ٱللَّهِ   ٱلرَّحْمَٰنِ  ٱلرَّحِيمِ ",
+    "content": [
       {
-        'words': "Background",
-        'notes': [
+        "words": "Background",
+        "notes": [
           "First complete surah given to Rasulullah ﷺ.  ",
           "Fatihah will open the doors to the other parts of the Quran. That's why its always paired with other Surah in our prayers.",
           "All you need to know about God is the first 3 ayaats of Al-Fatihah.",
-          "First 3 ayats of Fatihah is the knowledge, the rest are our testimony to action.",
+          "First 3 ayats of Fatihah is the knowledge, the rest are our testimony to action."
         ]
-      },
+      }
     ]
   },
   {
-    'ayat': "ٱلْحَمْدُ  لِلَّهِ   رَبِّ   ٱلْعَٰلَمِينَ ",
-    'content': [
+    "ayat": "ٱلْحَمْدُ  لِلَّهِ   رَبِّ   ٱلْعَٰلَمِينَ ",
+    "content": [
       {
-        'words': "الحمدلله",
-        'notes': [
+        "words": "الحمدلله",
+        "notes": [
           "We thank and praise Allah no matter what has happened, although we may not understand the wisdom behind it.",
           "Try comparing 'Praise' ( ثناء  ) or 'Thanks' with the word الحمد.",
           "We praise an athlete because he is good.",
@@ -33,49 +33,152 @@ CONTENT = [
           "The concise nature of the word conveys the best meaning. The shorter a word to describe something, the better it is.",
           "There is no 'و' (and) used to pair المدح  and الشكر  since the usage و will separate the meaning",
           "Also, thanks and praise can be for two different things. You can praise someone for somethings, and thank him for other things.",
-          "لحمد لله  is not just something that we say, it is supposed to be an attitude that we practice",
-
-
-
+          "لحمد لله  is not just something that we say, it is supposed to be an attitude that we practice"
         ]
       },
-      {'words': "الحمد لله is in the form of a noun.",
-        'notes': [
+      {
+        "words": "الحمد لله is in the form of a noun.",
+        "notes": [
           "Nouns don't have any tense - they are timeless and permanent.",
           "We are praising Allah now, but the praise and thanks to Allah will be there forever",
           "It will never depend on any person reciting it i.e. it doesn't need a doer.",
-          "Acknowledging that Allah doesn't need us, we are the ones who need him.",
+          "Acknowledging that Allah doesn't need us, we are the ones who need him."
+        ]
+      },
+      {
+        "words": "Why is it not in the form of a command?",
+        "note": [
+          "So that it was never a choice for anyone or anything to perform. The phrase never depends on Allah creations."
+        ]
+      },
+      {
+        "words": "It doesn't have an 'انَّ' (Absolutely) as usually said before Khutba",
+        "note": [
+          "Informative vs Emotional. A usual sentence in Arabic can either convey feelings or deliver information. 'انَّ' limits to it being informative. Without 'انَّ' it could be both informative and emotional."
+        ]
+      },
+      {
+        "words": "Why not 'لله الحمد'?",
+        "note": [
+          "The unusual sequence of الحمد and لله will imply exclusivity. In other words, praise and thanks is ONLY for Allah.",
+          "The word 'only' is used when  (when you are in argument) or when الحمد cannot belong to anyone else. ",
+          "When 'only' is used, it can only mean that either there are some confusion, or the conversation is actually a debate that needs to be won. Allah never wanted to make it a debate, thus he never uses 'only'. It didn't need to be forced into our hearts, because its already in us."
+        ]
+      },
+      {
+        "words": "The importance of the word الله.",
+        "note": [
+          "Allah introduces himself to us with His name.",
+          "If 'لله' is missing, it would cause confusion to who is the 'رب العالمىن ' (Master of the Worlds).",
+          "If 'لله' is replaced by some other names of Allah, it will only mean that the الحمد is only for those qualities that the name possesses."
+        ]
+      },
+      {
+        "words": "ربِّ العلمىن",
+        "note": []
+      },
+      {
+        "words": "ربِّ",
+        "note": [
+          "Someone who owns. This means that we are the property.",
+          "Someone who ensures growth and takes care of it. Sometimes people own something but never takes care of it. Allah is never like that.  Allah is the caretaker of our flow of blood, our breath and everything that made us live.",
+          "Someone who give gifts to the thing he owns. The gifts are given besides the things that the property deserves. If we ever receive something, we should never complain, because we never own or deserve it.",
+          "Someone who have the authority over his properties. Allah has full control over His properties.",
+          "All of us have no authority over anything, only Allah does. "
+        ]
+      },
+      {
+        "words": "رب creates a relationship between us and Him",
+        "note": [
+          "We have a lot of relationships with Allah, but the most important is that Allah is رب, and we are عبد. Accepting this is the summary of the entire Quran. ",
+          "Remember, a slave have no choice. He cannot do anything until the master tells him what to do. Its also a full time job. ",
+          "A slave is not the same as a servant, we don't give a service and expect\n a paycheck from Allah. We can't say no when there is something that we \nmay not like.",
+          "The رب and عبد relationship represents a connection to the ayat اهْدِنَاالصِّرَاطَ الْمُسْتَقِيمَ meaning: tell me what to do Ya رب.",
+          "Relation to previous phrase: We are so grateful to Allah that naturally the slavery becomes a thing of choice. We want to become slaves to Allah out of willingness and love. This is a unique form of slavery."
+        ]
+      },
+      {
+        "words": "رب creates a relationship between us and Him",
+        "note": [
+          "We have a lot of relationships with Allah, but the most important is that Allah is رب, and we are عبد. Accepting this is the summary of the entire Quran. ",
+          "Remember, a slave have no choice. He cannot do anything until the master tells him what to do. Its also a full time job. ",
+          "A slave is not the same as a servant, we don't give a service and expect\n a paycheck from Allah. We can't say no when there is something that we \nmay not like.",
+          "The رب and عبد relationship represents a connection to the ayat اهْدِنَاالصِّرَاطَ الْمُسْتَقِيمَ meaning: tell me what to do Ya رب.",
+          "Relation to previous phrase: We are so grateful to Allah that naturally the slavery becomes a thing of choice. We want to become slaves to Allah out of willingness and love. This is a unique form of slavery."
+        ]
+      },
+      {
+        "words": "ربالْعَالَمِينَ",
+        "note": [
+          "Definition: worlds of people, different nations. A world that spans the experience of everyone living. It also include all the cultures and civilizations.",
+          "Allah created all the cultures, languages and civilizations. ",
+          "You can live in all these different environments/worlds, and still be guided."
         ]
       }
     ]
   },
   {
-    'ayat': "ayat3",
-    'content': [
+    "ayat": "الرَّحْمَـٰنِ الرَّحِيمِ",
+    "content": [
       {
-        'words': "ayat3word1",
-        'notes': [
-          "ayat3word1note1",
-          "ayat3word1note2",
-          "ayat3word1note3",
+        "words": "Both word means:",
+        "notes": [
+          "Intense Love",
+          "Concern",
+          "Mercy. No matter how many times we messed up, Allah always let it slip through. He never sent axes flying from the sky chopping our heads when we look \nat haram things, no thunder comes striking when we say bad words to our \nfellow human beings."
         ]
       },
       {
-        'words': "ayat3word2",
-        'notes': [
-          "ayat3word2note1",
-          "ayat3word2note2",
-          "ayat3word2note3",
+        "words": "الرَّحْمَـٰنِ",
+        "notes": [
+          "Its extreme and beyond expectation.",
+          "Its happening immediately and right now.",
+          "Its temporary and only for this world."
         ]
       },
       {
-        'words': "ayat3word3",
-        'notes': [
-          "ayat3word3note1",
-          "ayat3word3note2",
-          "ayat3word3note3",
+        "words": "الرَّحِيمِ",
+        "notes": [
+          "Permanent.",
+          "Not necessarily right now.",
+          "For the muslims in the next life."
         ]
       },
+      {
+        "words": "Why is الرَّحْمَـٰنِ first and الرَّحِيمِ second?",
+        "notes": [
+          "We only think about the future after our immediate concern is taken care of.",
+          "Allah understands us so well, that he takes care of our immediate \nconcerns first, and subsequently guarantees mercy even in the future."
+        ]
+      }
     ]
   },
+  {
+    "ayat": "مَالِكِ يَوْمِ الدِّينِ",
+    "content": [
+      {
+        "words": "Puts us back in check",
+        "notes": []
+      },
+      {
+        "words": "Master of the day of judgement",
+        "notes": []
+      },
+      {
+        "words": "الدِّينِ",
+        "notes": [
+          "Accurate dealings and justice.",
+          "T",
+          "For the muslims in the next life."
+        ]
+      },
+      {
+        "words": "Why is الرَّحْمَـٰنِ first and الرَّحِيمِ second?",
+        "notes": [
+          "We only think about the future after our immediate concern is taken care of.",
+          "Allah understands us so well, that he takes care of our immediate \nconcerns first, and subsequently guarantees mercy even in the future."
+        ]
+      }
+    ]
+  }
 ]
